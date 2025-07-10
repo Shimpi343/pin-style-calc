@@ -1,0 +1,81 @@
+#calc{
+    height: 750px;
+    background-color: rgb(234, 245, 221);
+    width: 40%;
+   margin-left: 380px;
+   margin-top: 80px;
+   border: 20px solid rgb(231, 237, 219);
+   text-align: center;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 50px;
+  
+   
+}
+#display{
+    width: 85%;
+    margin: 20px;
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 3px black;
+    background-color: rgb(232, 238, 235);
+    font-size: 40px;
+}
+
+
+.button-group{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    background-color: #E6E5A3;
+    text-decoration: none;
+    border: none;
+    font-size: 35px;
+
+}
+.second{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    background-color:#A9AF7E ;
+    border: none;
+    font-size: 35px;
+}
+.third{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    background-color: #7D8F69;
+    border: none;
+   font-size: 35px;
+   
+}
+.fourth{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    margin-bottom: 15px;
+    background-color: #557153;
+    border: none;
+   font-size: 35px;
+}
+.first:hover {
+  box-shadow: 5px 0px 5px 0px rgb(153, 154, 153);
+}
+.second:hover {
+  box-shadow: 5px 0px 5px 0px rgb(132, 132, 131);
+}
+.third:hover {
+  box-shadow: 5px 0px 5px 0px rgb(171, 172, 170);
+}
+.fourth:hover {
+  box-shadow: 5px 0px 5px 0px rgb(159, 160, 158);
+}
